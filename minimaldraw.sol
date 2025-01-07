@@ -14,7 +14,8 @@ contract MinimalDraw is AutomationCompatibleInterface {
 
     event TicketPurchased(address indexed participant);
     event WinnerSelected(address indexed winner);
-
+    
+    // constructor
     constructor() {
         admin = msg.sender;
     }
